@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Wpf_Homework4.MyControls.RatingControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Wpf_Homework4.MyControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="250" Loaded="UserControl_Loaded" Background="Gray">
+    <Grid>
+
+        <StackPanel Orientation="Horizontal">
+
+            <Image Name="i1" MouseDown="i_MouseDown" MouseEnter="i_MouseEnter" MouseLeave="i_MouseLeave" Width="50" Height="50"/>
+            <Image Name="i2" MouseDown="i_MouseDown" MouseEnter="i_MouseEnter" MouseLeave="i_MouseLeave" Width="50" Height="50"/>
+            <Image Name="i3" MouseDown="i_MouseDown" MouseEnter="i_MouseEnter" MouseLeave="i_MouseLeave" Width="50" Height="50"/>
+            <Image Name="i4" MouseDown="i_MouseDown" MouseEnter="i_MouseEnter" MouseLeave="i_MouseLeave" Width="50" Height="50"/>
+            <Image Name="i5" MouseDown="i_MouseDown" MouseEnter="i_MouseEnter" MouseLeave="i_MouseLeave" Width="50" Height="50"/>
+
+        </StackPanel>
+        
+    </Grid>
+</UserControl>
