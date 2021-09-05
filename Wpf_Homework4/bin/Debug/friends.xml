@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFriend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Friend>
+    <FriendName>Osas</FriendName>
+    <TrustRating>3</TrustRating>
+  </Friend>
+  <Friend>
+    <FriendName>Jonathan Joster</FriendName>
+    <TrustRating>2</TrustRating>
+  </Friend>
+  <Friend>
+    <FriendName>Emilio P.</FriendName>
+    <TrustRating>1</TrustRating>
+  </Friend>
+  <Friend>
+    <FriendName>MyNewFriend</FriendName>
+    <TrustRating>4</TrustRating>
+  </Friend>
+  <Friend>
+    <FriendName>Loj</FriendName>
+    <TrustRating>5</TrustRating>
+  </Friend>
+  <Friend>
+    <FriendName>New Friend</FriendName>
+    <TrustRating>2</TrustRating>
+  </Friend>
+</ArrayOfFriend>
